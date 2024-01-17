@@ -2,6 +2,10 @@
     import '$lib/globals.css';
 </script>
 
+<div class="container">
+    <slot />
+</div>
+
 <style>
     .container {
         margin-top: 2rem;
@@ -9,7 +13,3 @@
         margin-right: 30%;
     }
 </style>
-
-<div class="container">
-    <slot></slot>
-</div>
