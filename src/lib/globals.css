@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Rubik';
+    font-weight: 400;
+    src: url('/fonts/Rubik-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-weight: 700;
+    src: url('/fonts/Rubik-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url('/fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: italic;
+    src: url('/fonts/Roboto-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: italic;
+    src: url('/fonts/Roboto-BoldItalic.ttf') format('truetype');
+}
+
+html,
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: #1B1F26;
+    font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #DDDDDD;
+}
