@@ -36,6 +36,12 @@
     src: url('/fonts/Roboto-BoldItalic.ttf') format('truetype');
 }
 
+:root {
+    --text-color: #dddddd;
+    --light-text: #aaaaaa;
+    --primary: #da95fb;
+}
+
 html,
 body {
     margin: 0;

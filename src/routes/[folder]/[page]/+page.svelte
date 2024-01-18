@@ -5,4 +5,4 @@
     export let data: PageData;
 </script>
 
-<Navbar page={data.page} folder={data.folder} />
+<Navbar page={data.page} pageName={data.pageName} folder={data.folder} />
