@@ -39,6 +39,7 @@
 
     .folder-link:hover {
         color: var(--primary);
+        filter: none;
     }
 
     .page-link {

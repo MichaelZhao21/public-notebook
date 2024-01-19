@@ -1,5 +1,9 @@
 <script lang="ts">
     import Navbar from '$lib/Navbar.svelte';
+    import Row from '$lib/Row.svelte';
+    import type { PageData } from './$types';
+    
+    export let data: PageData;
 </script>
 
 <Navbar />
@@ -9,15 +13,16 @@
     free to look around :D
 </p>
 
-<h1 class="header">Recent</h1>
+<h1>Recent</h1>
+
+<h1>Directory</h1>
+
+{#each data.folders as folder}
+    <Row slug={folder.slug} />
+{/each}
 
 <style>
     .about {
         font-size: 1.25rem;
-    }
-
-    .header {
-        font-size: 3rem;
-        font-weight: bold;
     }
 </style>

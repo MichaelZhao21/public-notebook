@@ -11,7 +11,7 @@
         <a class="nav-title" href="/">🐸 frog</a>
         <PathDisplay {page} {pageName} {folder} />
     </div>
-    <div class="container">
+    <div class="container" id="bottom">
         <a class="link" id="first-link" href="/">home</a>
         <a class="link" href="https://michaelzhao.xyz">about me</a>
         <a class="link" href="/admin">admin</a>
@@ -37,18 +37,13 @@
 
     .nav-title:hover {
         color: var(--primary);
+        filter: none;
     }
 
     .link {
         margin: 0 1rem;
         text-decoration: none;
-        color: var(--primary);
-        font-size: 1.5rem;
-        transition-duration: 200ms;
-    }
-
-    .link:hover {
-        filter: brightness(1.5);
+        font-size: 1.25rem;
     }
 
     #first-link {
@@ -62,5 +57,9 @@
 
     #top {
         margin-bottom: 1rem;
+    }
+
+    #bottom {
+        margin-bottom: 1.5rem;
     }
 </style>
