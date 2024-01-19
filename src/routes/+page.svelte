@@ -4,5 +4,20 @@
 
 <Navbar />
 
-<h1>hi blep</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<p class="about">
+    Welcome to my public notebook! This is just somewhere that I dump my thoughts and ideas. Feel
+    free to look around :D
+</p>
+
+<h1 class="header">Recent</h1>
+
+<style>
+    .about {
+        font-size: 1.25rem;
+    }
+
+    .header {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+</style>

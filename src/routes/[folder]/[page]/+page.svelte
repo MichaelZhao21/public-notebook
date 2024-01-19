@@ -6,3 +6,5 @@
 </script>
 
 <Navbar page={data.page} pageName={data.pageName} folder={data.folder} />
+
+<p>{data.content}</p>

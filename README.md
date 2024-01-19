@@ -24,3 +24,34 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## DB Schema
+
+pages indexed on folder + slug (compound index)
+
+```
+Page {
+    folder
+    slug
+    name
+    tags
+    content
+    lastEdit
+}
+```
+
+folders indexed on slug
+
+```
+Folder {
+    slug
+    name
+    pages {
+        pageId
+        name
+        tags
+        lastEdit
+    }
+    lastEdit
+}
+```

@@ -24,7 +24,7 @@
     .path {
         font-family: 'Rubik', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: 400;
-        font-size: 2rem;
+        font-size: 2.5rem;
         color: var(--light-text);
         margin: 0;
         display: flex;
